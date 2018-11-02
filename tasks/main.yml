@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-selinux
+- name: Set SELinux
+  selinux: policy={{ policy }} state={{ state }}
